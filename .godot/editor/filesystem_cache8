@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696477828
+::res://::1696479686
 ::res://addons/::1696469950
 ::res://assets/::1696477754
 icon.svg::CompressedTexture2D::4300652691789248704::1696477742::1696477742::1::::<><>::
@@ -59,7 +59,7 @@ run_right_40x40.png::CompressedTexture2D::4444999041995416514::1696477748::16964
 run_up_40x40.png::CompressedTexture2D::5852869125322454114::1696477748::1696477748::1::::<><>::
 ::res://assets/Fonts/::1696469950
 ::res://assets/Icons/::1696477752
-::res://assets/Icons/Pack_1/::1696477754
+::res://assets/Icons/Pack_1/::1696477833
 #1 - Transparent Icons.png::CompressedTexture2D::4949614320282378246::1696477753::1696477752::1::::<><>::
 #2 - Transparent _ Drop Shadow.png::CompressedTexture2D::4967814746847660681::1696477753::1696477833::1::::<><>::
 Background 1a.png::CompressedTexture2D::2080414132548205472::1696477753::1696477753::1::::<><>::
@@ -78,7 +78,7 @@ Background 8.png::CompressedTexture2D::8018632070049265498::1696477753::16964777
 Background 9.png::CompressedTexture2D::620208285112117562::1696477753::1696477753::1::::<><>::
 Background 10.png::CompressedTexture2D::1130605325183609349::1696477753::1696477753::1::::<><>::
 Shikashi_s Fantasy Icons Pack.txt::TextFile::-1::1696477753::0::1::::<><>::
-::res://assets/Icons/Pack_2/::1696477752
+::res://assets/Icons/Pack_2/::1696477833
 #1 - Transparent Icons.png::CompressedTexture2D::2506641628763301620::1696477752::1696477752::1::::<><>::
 #2 - Transparent Icons _ Drop Shadow.png::CompressedTexture2D::8602359459006079258::1696477751::1696477833::1::::<><>::
 Background 1a.png::CompressedTexture2D::9077604649272907412::1696477752::1696477750::1::::<><>::
@@ -195,34 +195,34 @@ decor.png::CompressedTexture2D::7250205249227548078::1696477754::1696477754::1::
 Dungeon_24x24.png::CompressedTexture2D::5153971776354081632::1696477754::1696477754::1::::<><>::
 example.png::CompressedTexture2D::2253069164736323443::1696477754::1696477754::1::::<><>::
 Island_24x24.png::CompressedTexture2D::3930971555920007144::1696477754::1696477754::1::::<><>::
-::res://assets/Tilesets/::1696477750
-MysticWoods.tres::TileSet::8756288412144310354::1696477750::0::1::::<><>::uid://dfynmnx1d2vfr::::res://assets/Mystic_Woods/tilesets/grass.png<>uid://1ye1hi2bwdwm::::res://assets/Mystic_Woods/tilesets/plains.png<>uid://ibjhqkjwiguv::::res://assets/Mystic_Woods/objects/rock_in_water_04.png<>uid://bqgdkn58xitlf::::res://assets/Mystic_Woods/objects/rock_in_water_05.png<>uid://cdv1tjyklgoam::::res://assets/Mystic_Woods/objects/rock_in_water_06.png<>uid://dxax2dn0nw0er::::res://assets/Mystic_Woods/tilesets/floors/carpet.png<>uid://hsxdbqjdnhbt::::res://assets/Mystic_Woods/tilesets/floors/flooring.png<>uid://cqi8x2th0nr1u::::res://assets/Mystic_Woods/tilesets/floors/wooden.png<>uid://cdy6sn8wotlhd::::res://assets/Mystic_Woods/tilesets/walls/walls.png<>uid://dggsy3do5rus5::::res://assets/Mystic_Woods/tilesets/walls/wooden_door.png<>uid://dhuwvctu3v2ns::::res://assets/Mystic_Woods/tilesets/walls/wooden_door_b.png<>uid://78a3kdkbfo26::::res://assets/Mystic_Woods/tilesets/decor_8x8.png<>uid://b1j7anb2f841t::::res://assets/Mystic_Woods/objects/objects.png<>uid://cvgemi6lo3gcv::::res://assets/Mystic_Woods/tilesets/decor_16x16.png<>uid://db5yeimcb7yy7::::res://assets/Mystic_Woods/tilesets/fences.png<>uid://ba8d1kq5q0qfy::::res://assets/Mystic_Woods/tilesets/water1.png<>uid://dn34cx3lrfpwp::::res://assets/Mystic_Woods/tilesets/water2.png<>uid://ds6apmd8n4jk0::::res://assets/Mystic_Woods/tilesets/water3.png<>uid://b0fkfirfyhywe::::res://assets/Mystic_Woods/tilesets/water4.png<>uid://d4bf1qx157hxj::::res://assets/Mystic_Woods/tilesets/water5.png<>uid://cfgmokuu62do0::::res://assets/Mystic_Woods/tilesets/water6.png<>uid://cdydq0nfbb37m::::res://assets/Mystic_Woods/tilesets/water_decorations.png<>uid://degccl7ne6irm::::res://assets/Mystic_Woods/tilesets/water_lillies.png<>uid://cvtke22tawrn7::::res://assets/Mystic_Woods/objects/chest_01.png<>uid://dbkb26j6emf4a::::res://assets/Tilemaps/TilesetRpg/decor.png<>uid://cfovfrphmear5::::res://assets/Tilemaps/TilesetRpg/Dungeon_24x24.png<>uid://bbvgdjb4700ka::::res://assets/Mystic_Woods/objects/chest_02.png<>uid://bwagr6phrnmmi::::res://assets/Tilemaps/TilesetRpg/Island_24x24.png<>uid://ds1fvxcwqr3jm::::res://assets/Mystic_Woods/objects/rock_in_water_01-sheet.png<>uid://btpge67ujyhla::::res://assets/Mystic_Woods/objects/rock_in_water_01.png<>uid://ddnw6amhhv8ks::::res://assets/Mystic_Woods/objects/rock_in_water_02.png<>uid://d0jatx8dhegi2::::res://assets/Mystic_Woods/objects/rock_in_water_03.png
+::res://assets/Tilesets/::1696477862
+MysticWoods.tres::TileSet::8756288412144310354::1696477862::0::1::::<><>::uid://dfynmnx1d2vfr
 ::res://autoload/::1696469976
 ::res://custom/::1696469950
 ::res://environments/::1696469950
 ::res://scenes/::1696477772
-::res://scenes/enemies/::1696477772
+::res://scenes/enemies/::1696477862
 Slime.gd::GDScript::-1::1696477772::0::1::::<>CharacterBody2D<>::
-Slime.tscn::PackedScene::1251803966498768835::1696477772::0::1::::<><>::res://scenes/enemies/Slime.gd<>uid://b55qi7xkcmmvl::::res://assets/Mystic_Woods/characters/slime.png
+Slime.tscn::PackedScene::1251803966498768835::1696477862::0::1::::<><>::res://scenes/enemies/Slime.gd<>uid://b55qi7xkcmmvl
 ::res://scenes/old_project/::1696477772
 ::res://scenes/old_project/enemy/::1696477772
 enemy.gd::GDScript::-1::1696477772::0::1::::<>RigidBody2D<>::
-enemy.tscn::PackedScene::6920318862624282444::1696477772::0::1::::<><>::uid://dt2c3jhh4yv56::::res://assets/Animations/Animals/spritesheet.png
+enemy.tscn::PackedScene::6920318862624282444::1696477772::0::1::::<><>::uid://dt2c3jhh4yv56
 ::res://scenes/old_project/levels/::1696469958
 ::res://scenes/old_project/main/::1696477772
 main.gd::GDScript::-1::1696477772::0::1::::<>Node<>::
-main.tscn::PackedScene::7074951140405538364::1696477772::0::1::::<><>::res://scenes/old_project/main/main.gd<>uid://b78auhtime2q7::::res://scenes/old_project/player/player.tscn<>uid://daxta0uajcs53::::res://scenes/old_project/maps/map_1.tscn
+main.tscn::PackedScene::7074951140405538364::1696477772::0::1::::<><>::res://scenes/old_project/main/main.gd<>uid://b78auhtime2q7
 ::res://scenes/old_project/maps/::1696477772
-map_1.tscn::PackedScene::7207897706277210240::1696477772::0::1::::<><>::uid://bwagr6phrnmmi::::res://assets/Tilemaps/TilesetRpg/Island_24x24.png<>uid://cfovfrphmear5::::res://assets/Tilemaps/TilesetRpg/Dungeon_24x24.png<>uid://dbkb26j6emf4a::::res://assets/Tilemaps/TilesetRpg/decor.png
+map_1.tscn::PackedScene::7207897706277210240::1696477772::0::1::::<><>::uid://bwagr6phrnmmi
 ::res://scenes/old_project/player/::1696477772
 Player.gd::GDScript::-1::1696477772::0::1::::<>Area2D<>::
-player.tscn::PackedScene::4700624259266651212::1696477772::0::1::::<><>::res://scenes/old_project/player/Player.gd<>uid://bte5847x86827::::res://assets/Animations/Player_isometric/idle/idle_down_40x40.png<>uid://v3kpy2qd5785::::res://assets/Animations/Player_isometric/idle/idle_left_40x40.png<>uid://cbic440aspq::::res://assets/Animations/Player_isometric/idle/idle_right_40x40.png<>uid://c3ipxfaugkun5::::res://assets/Animations/Player_isometric/idle/idle_up_40x40.png<>uid://bei7l0y5dcdfy::::res://assets/Animations/Player_isometric/run/run_down_40x40.png<>uid://dgtwa808vefu0::::res://assets/Animations/Player_isometric/run/run_left_40x40.png<>uid://b4lgqqosufoog::::res://assets/Animations/Player_isometric/run/run_right_40x40.png<>uid://cpnf5txg1mxd7::::res://assets/Animations/Player_isometric/run/run_up_40x40.png
-::res://scenes/player/::1696477773
-Player.gd::GDScript::-1::1696477773::0::1::::<>CharacterBody2D<>::
-Player.tscn::PackedScene::5516295385384907816::1696477773::0::1::::<><>::res://scenes/player/Player.gd<>uid://bltlxuxen4078::::res://assets/Animations/Player_isometric/attack/attack_down_40x40.png<>uid://cjom5f11v01ai::::res://assets/Animations/Player_isometric/attack/attack_left_40x40.png<>uid://p37r13gaa4gi::::res://assets/Animations/Player_isometric/attack/attack_right_40x40.png<>uid://w7uv7c51ubd5::::res://assets/Animations/Player_isometric/attack/attack_up_40x40.png<>uid://nf8uxjp2hmuo::::res://assets/Animations/Player_isometric/death/death_down_40x40.png<>uid://ctqo1besoq1qu::::res://assets/Animations/Player_isometric/death/death_left_40x40.png<>uid://c2nisyqr4odwr::::res://assets/Animations/Player_isometric/death/death_right_40x40.png<>uid://jd7lsp4nx0se::::res://assets/Animations/Player_isometric/death/death_up_40x40.png<>uid://bte5847x86827::::res://assets/Animations/Player_isometric/idle/idle_down_40x40.png<>uid://v3kpy2qd5785::::res://assets/Animations/Player_isometric/idle/idle_left_40x40.png<>uid://cbic440aspq::::res://assets/Animations/Player_isometric/idle/idle_right_40x40.png<>uid://c3ipxfaugkun5::::res://assets/Animations/Player_isometric/idle/idle_up_40x40.png<>uid://bei7l0y5dcdfy::::res://assets/Animations/Player_isometric/run/run_down_40x40.png<>uid://dgtwa808vefu0::::res://assets/Animations/Player_isometric/run/run_left_40x40.png<>uid://b4lgqqosufoog::::res://assets/Animations/Player_isometric/run/run_right_40x40.png<>uid://cpnf5txg1mxd7::::res://assets/Animations/Player_isometric/run/run_up_40x40.png
-::res://scenes/world/::1696477772
-World.tscn::PackedScene::8190262025375850939::1696477772::0::1::::<><>::uid://dw0u15hdwcu8q::::res://assets/Tilesets/MysticWoods.tres<>uid://ckuetxnh8g4ka::::res://scenes/player/Player.tscn<>uid://r3na74x5x81t::::res://scenes/enemies/Slime.tscn
+player.tscn::PackedScene::4700624259266651212::1696477772::0::1::::<><>::res://scenes/old_project/player/Player.gd<>uid://bte5847x86827
+::res://scenes/player/::1696477862
+Player.gd::GDScript::-1::1696477862::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::5516295385384907816::1696477862::0::1::::<><>::res://scenes/player/Player.gd<>uid://bltlxuxen4078
+::res://scenes/world/::1696477863
+World.tscn::PackedScene::8190262025375850939::1696477863::0::1::::<><>::uid://dw0u15hdwcu8q
 ::res://scripts/::1696477787
-Global.gd::GDScript::-1::1696477787::0::1::::<>Node<>::
+Global.gd::GDScript::-1::1696479513::0::1::::<>Node<>::
 ::res://settings/::1696469950
 ::res://ui/::1696469950
