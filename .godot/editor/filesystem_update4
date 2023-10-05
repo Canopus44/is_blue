@@ -1,0 +1,5 @@
+res://scenes/enemies/Slime.tscn
+res://scenes/player/Player.gd
+res://assets/Tilesets/MysticWoods.tres
+res://scenes/player/Player.tscn
+res://scenes/world/World.tscn

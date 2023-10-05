@@ -1,0 +1,225 @@
+[gd_scene load_steps=29 format=3 uid="uid://c5uiv1r80fwr1"]
+
+[ext_resource type="Texture2D" uid="uid://dt2c3jhh4yv56" path="res://assets/Animations/Animals/spritesheet.png" id="1_1164s"]
+
+[sub_resource type="GDScript" id="GDScript_8gfgc"]
+script/source = "extends RigidBody2D
+
+@onready var animated  = $AnimatedSprite2D
+
+func ready():
+	var mob_types = animated.sprite_frames.get_animation_names()
+	print(mob_types)
+	animated.play(mob_types[randi() % mob_types.size()])
+
+func _on_visible_on_screen_notifier_2d_screen_exited():
+	queue_free()
+"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7kdjy"]
+atlas = ExtResource("1_1164s")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bjg7r"]
+atlas = ExtResource("1_1164s")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ws2v"]
+atlas = ExtResource("1_1164s")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_squrh"]
+atlas = ExtResource("1_1164s")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h0525"]
+atlas = ExtResource("1_1164s")
+region = Rect2(64, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mdcnb"]
+atlas = ExtResource("1_1164s")
+region = Rect2(80, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pn4wg"]
+atlas = ExtResource("1_1164s")
+region = Rect2(96, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqvay"]
+atlas = ExtResource("1_1164s")
+region = Rect2(112, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vbamb"]
+atlas = ExtResource("1_1164s")
+region = Rect2(128, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cu51v"]
+atlas = ExtResource("1_1164s")
+region = Rect2(144, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_33jtk"]
+atlas = ExtResource("1_1164s")
+region = Rect2(160, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o8v6r"]
+atlas = ExtResource("1_1164s")
+region = Rect2(176, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wogmg"]
+atlas = ExtResource("1_1164s")
+region = Rect2(192, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ao8mo"]
+atlas = ExtResource("1_1164s")
+region = Rect2(208, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f3nug"]
+atlas = ExtResource("1_1164s")
+region = Rect2(224, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gxomc"]
+atlas = ExtResource("1_1164s")
+region = Rect2(240, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0soqh"]
+atlas = ExtResource("1_1164s")
+region = Rect2(128, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mbaht"]
+atlas = ExtResource("1_1164s")
+region = Rect2(144, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x6rvj"]
+atlas = ExtResource("1_1164s")
+region = Rect2(160, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ntb5"]
+atlas = ExtResource("1_1164s")
+region = Rect2(176, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pgvo8"]
+atlas = ExtResource("1_1164s")
+region = Rect2(192, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48t3r"]
+atlas = ExtResource("1_1164s")
+region = Rect2(208, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6hjm1"]
+atlas = ExtResource("1_1164s")
+region = Rect2(224, 64, 16, 16)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qadhr"]
+atlas = ExtResource("1_1164s")
+region = Rect2(240, 64, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0sijt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7kdjy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bjg7r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5ws2v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_squrh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h0525")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mdcnb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pn4wg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqvay")
+}],
+"loop": true,
+"name": &"snake_1",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vbamb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cu51v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_33jtk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o8v6r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wogmg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ao8mo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f3nug")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gxomc")
+}],
+"loop": true,
+"name": &"snake_2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0soqh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mbaht")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x6rvj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ntb5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pgvo8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_48t3r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6hjm1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qadhr")
+}],
+"loop": true,
+"name": &"snake_3",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ws7hm"]
+size = Vector2(12, 11)
+
+[node name="Enemy" type="RigidBody2D"]
+gravity_scale = 0.0
+script = SubResource("GDScript_8gfgc")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_0sijt")
+animation = &"snake_3"
+frame_progress = 0.248603
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(-1, 2)
+shape = SubResource("RectangleShape2D_ws7hm")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+visible = false
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

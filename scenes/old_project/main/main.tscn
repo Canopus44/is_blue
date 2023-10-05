@@ -1,0 +1,37 @@
+[gd_scene load_steps=5 format=3 uid="uid://c72fn83jsa8su"]
+
+[ext_resource type="Script" path="res://scenes/old_project/main/main.gd" id="1_d46wo"]
+[ext_resource type="PackedScene" uid="uid://b78auhtime2q7" path="res://scenes/old_project/player/player.tscn" id="1_dgjcl"]
+[ext_resource type="PackedScene" uid="uid://daxta0uajcs53" path="res://scenes/old_project/maps/map_1.tscn" id="3_s4ndd"]
+
+[sub_resource type="Curve2D" id="Curve2D_lhejn"]
+_data = {
+"points": PackedVector2Array(53.3936, 30.7013, -53.3936, -30.7013, 64, 576, -64.0723, 64.0723, 64.0723, -64.0723, 64, 64, -61.4026, -61.4026, 61.4026, 61.4026, 1088, 64, 61.4026, -73.4162, -61.4026, 73.4162, 1088, 576, 0, 0, 0, 0, 704, 576, 70.7465, 114.796, -70.7465, -114.796, 704, 384, 76.0859, -109.457, -76.0859, 109.457, 384, 384, 0, 0, 0, 0, 384, 576, 26.6968, 68.0768, -26.6968, -68.0768, 64, 576)
+}
+point_count = 9
+
+[node name="Main" type="Node"]
+script = ExtResource("1_d46wo")
+
+[node name="Map_1" parent="." instance=ExtResource("3_s4ndd")]
+
+[node name="Player" parent="Map_1" instance=ExtResource("1_dgjcl")]
+top_level = true
+
+[node name="MobTimer" type="Timer" parent="Map_1"]
+wait_time = 5.0
+autostart = true
+
+[node name="StartTimer" type="Timer" parent="Map_1"]
+wait_time = 2.0
+one_shot = true
+
+[node name="StartPosition" type="Marker2D" parent="Map_1"]
+position = Vector2(536, 632)
+
+[node name="MobPath" type="Path2D" parent="Map_1"]
+curve = SubResource("Curve2D_lhejn")
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="Map_1/MobPath"]
+position = Vector2(64, 576)
+rotation = -2.61976

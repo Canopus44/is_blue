@@ -1,0 +1,15 @@
+CollisionShape2D
+Camera2D
+Timer
+Area2D
+AnimatedSprite2D
+CharacterBody2D
+Node2D
+TileMap
+Node
+PathFollow2D
+Path2D
+Marker2D
+VisibleOnScreenNotifier2D
+RigidBody2D
+AnimationPlayer

@@ -1,0 +1,11 @@
+res://scripts
+res://scenes/enemies
+res://assets/Mystic_Woods/characters
+res://assets/Tilesets
+res://scenes/world
+res://assets/Animations/Player_isometric/death
+res://assets/Animations/Player_isometric/attack
+res://assets/Animations/Animals
+res://scenes/player
+res://assets/Animations/Player_isometric/run
+res://assets/Animations/Player_isometric/idle
